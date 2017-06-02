@@ -11,7 +11,7 @@ The training and validation and testing data can be downloaded from https://d17h
 Some example fo the training set.
 ![original_data](https://cloud.githubusercontent.com/assets/15232969/26742681/aac1701e-47ac-11e7-988e-254cd89c2138.png)
 
-The training curve:
+The learning curve:
 
 ![acc](https://cloud.githubusercontent.com/assets/15232969/26742682/aaf4c9d2-47ac-11e7-847c-769327400df7.png)
 ![loss](https://cloud.githubusercontent.com/assets/15232969/26742687/aea79898-47ac-11e7-9287-afefaf1317a0.png)
