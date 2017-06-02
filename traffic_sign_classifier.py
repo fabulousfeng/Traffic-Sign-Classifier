@@ -1,7 +1,6 @@
 # Load pickled data
 import pickle
 
-# TODO: Fill this in based on where you saved the training and testing data
 
 training_file = 'train.p'
 validation_file= 'valid.p'
@@ -18,22 +17,21 @@ X_train, y_train = train['features'], train['labels']
 X_valid, y_valid = valid['features'], valid['labels']
 X_test, y_test = test['features'], test['labels']
 
-### Replace each question mark with the appropriate value.
-### Use python, pandas or numpy methods rather than hard coding the results
+
 import numpy as np
-# TODO: Number of training examples
+# Number of training examples
 n_train = len(X_train)
 
-# TODO: Number of validation examples
+# Number of validation examples
 n_validation = len(X_valid)
 
-# TODO: Number of testing examples.
+# Number of testing examples.
 n_test = len(X_test)
 
-# TODO: What's the shape of an traffic sign image?
+# What's the shape of an traffic sign image?
 image_shape = X_train[0].shape
 
-# TODO: How many unique classes/labels there are in the dataset.
+# How many unique classes/labels there are in the dataset.
 n_classes = len(np.unique(y_train))
 
 print("Number of training examples =", n_train)
@@ -114,7 +112,7 @@ def LeNet(x, keep_prob):
 
     return logits
 
-### Train your model here.
+### Train model here.
 ### Calculate and report the accuracy on the training and validation set.
 ### Once a final model architecture is selected,
 ### the accuracy on the test set should be calculated and reported as well.
